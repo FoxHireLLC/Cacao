@@ -22,23 +22,23 @@ function executeScript {
 }
 
 #--- Setting up Windows ---
-executeScript "SystemConfiguration.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "CommonDevTools.ps1";
 #--- executeScript "Browsers.ps1";
 executeScript "WindowsTools.ps1";
-executeScript "Innoveo.ps1";
+executeScript "Foxhire.ps1";
+executeScript "AwsDevops.ps1";
 
 #--- Visual Studio ---
-choco install visualstudio2019professional -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
+choco install visualstudio2022community -y --package-parameters "--add Microsoft.VisualStudio.Component.Git"
 Update-SessionEnvironment #refreshing env due to Git install
 
-choco install -y visualstudio2019-workload-manageddesktop
+choco install -y visualstudio2022-workload-netweb
+choco install -y visualstudio2022-workload-webbuildtools
+choco install -y visualstudio2022-workload-manageddesktop
 
-#--- Visual Studio extensions ---
-choco install -y gitdiffmargin
-choco install -y resharper-ultimate-all --package-parameters="'/NoCpp'"
+choco install -y jetbrains-rider
 
 Enable-UAC
 Enable-MicrosoftUpdate
