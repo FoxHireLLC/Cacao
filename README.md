@@ -4,6 +4,12 @@ You can read more about it on my blog post "[Automating my development machine i
 
 Some script part were taken from [Microsoft/windows-dev-box-setup-scripts](https://github.com/Microsoft/windows-dev-box-setup-scripts)
 
-<a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Normal.ps1'>Install Normal tools!</a>
+<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Normal.ps1'>Install Normal tools!</a>
 
-<a href='http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Developer.ps1'>Install Developer tools!</a>
+<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Developer.ps1'>Install Developer tools!</a>
+
+
+
+STILL TO INSTALL
+Ninja
+Nextiva

@@ -25,19 +25,6 @@ function executeScript {
 executeScript "FileExplorerSettings.ps1";
 executeScript "BaseSetup.ps1";
 
-#--- Visual Studio ---
-choco install visualstudio2019professional -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
-Update-SessionEnvironment #refreshing env due to Git install
-
-#--- Visual Studio extensions ---
-choco install -y gitdiffmargin
-
-#--- Get personal projects ---
-executeScript "PersonalProjects.ps1";
-
-#--- Configure Windows environment .gitconfig, PowerShell ---
-executeScript "ConfigureWindowsEnvironment.ps1";
-
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
