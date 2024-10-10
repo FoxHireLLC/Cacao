@@ -10,3 +10,4 @@ choco install -y sharex
 choco install -y sumatrapdf
 choco install -y googledrive
 choco install -y f.lux
+choco install -y libreoffice-fresh
