@@ -32,7 +32,7 @@ executeScript "AwsDevops.ps1";
 executeScript "Docker.ps1";
 
 #--- Visual Studio ---
-choco install visualstudio2022community -y --package-parameters "--add Microsoft.VisualStudio.Component.Git"
+# choco install visualstudio2022community -y --package-parameters "--add Microsoft.VisualStudio.Component.Git"
 Update-SessionEnvironment #refreshing env due to Git install
 
 # choco install -y visualstudio2022-workload-netweb
