@@ -21,10 +21,12 @@ function executeScript {
     iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
+#--- Setting up Windows ---
+executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
-executeScript "Browsers.ps1";
-executeScript "WindowsTools.ps1";
-executeScript "Foxhire.ps1";
+choco install -y googlechrome
+choco install -y openvpn
+choco install -y slack
 
 Enable-UAC
 Enable-MicrosoftUpdate
