@@ -23,14 +23,7 @@ function executeScript {
 
 #--- Setting up Windows ---
 executeScript "FileExplorerSettings.ps1";
-executeScript "RemoveDefaultApps.ps1";
-executeScript "CommonDevTools.ps1";
-executeScript "Browsers.ps1";
-executeScript "WindowsTools.ps1";
-
-executeScript "HyperV.ps1";
-RefreshEnv
-executeScript "Docker.ps1";
+executeScript "BaseSetup.ps1";
 
 #--- Visual Studio ---
 choco install visualstudio2019professional -y --package-parameters "--add Microsoft.VisualStudio.Component.Git" 
