@@ -30,4 +30,4 @@ choco install -y slack
 
 Enable-UAC
 Enable-MicrosoftUpdate
-Install-WindowsUpdate -acceptEula
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -AutoReboot

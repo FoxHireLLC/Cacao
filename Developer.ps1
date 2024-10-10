@@ -43,4 +43,4 @@ choco install -y jetbrains-rider
 
 Enable-UAC
 Enable-MicrosoftUpdate
-Install-WindowsUpdate -acceptEula
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -AutoReboot
