@@ -21,5 +21,6 @@ choco install -y linqpad
 choco install -y postman
 choco install -y sql-server-2022
 choco install -y rabbitmq
+choco install -y sublimetext4
 
 Install-Module -Force oh-my-posh
