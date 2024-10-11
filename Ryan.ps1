@@ -40,7 +40,15 @@ Update-SessionEnvironment #refreshing env due to Git install
 # choco install -y visualstudio2022-workload-manageddesktop
 
 choco install -y jetbrains-rider
-choco install -y netfx-4.8-devpack
+
+choco install -y cmdermini
+choco install -y windirstat
+choco install -y poshgit
+choco install -y oh-my-posh
+choco install -y sysinternals
+choco install -y rapidee
+
+Install-Module -Force oh-my-posh
 
 Enable-UAC
 Enable-MicrosoftUpdate
