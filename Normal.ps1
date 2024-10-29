@@ -28,6 +28,8 @@ executeScript "Browsers.ps1";
 executeScript "WindowsTools.ps1";
 executeScript "Foxhire.ps1";
 
+choco install -y netfx-4.8-devpack
+
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -AutoReboot
