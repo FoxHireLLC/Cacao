@@ -22,6 +22,7 @@ function executeScript {
 }
 
 #--- Setting up Windows ---
+executeScript "DirectorySetup.ps1";
 executeScript "FileExplorerSettingsAdvanced.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "Browsers.ps1";
