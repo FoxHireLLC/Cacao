@@ -22,13 +22,12 @@ function executeScript {
 }
 
 #--- Setting up Windows ---
+executeScript "DirectorySetup.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "Browsers.ps1";
 executeScript "WindowsTools.ps1";
 executeScript "Foxhire.ps1";
-
-choco install -y netfx-4.8-devpack
 
 Enable-UAC
 Enable-MicrosoftUpdate
