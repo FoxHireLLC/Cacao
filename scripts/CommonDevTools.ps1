@@ -1,4 +1,5 @@
-Install-WindowsFeature -Name Web-Server -IncludeManagementTools
+# Install-WindowsFeature -Name Web-Server -IncludeManagementTools
+Enable-WindowsOptionalFeature -Online -FeatureName "IIS-WebServerRole","IIS-WebServer","IIS-CommonHttpFeatures","IIS-StaticContent","IIS-DefaultDocument","IIS-DirectoryBrowsing","IIS-HttpErrors","IIS-HttpRedirect","IIS-ApplicationDevelopment","IIS-ASPNET45","IIS-NetFxExtensibility45","IIS-HealthAndDiagnostics","IIS-HttpLogging","IIS-LoggingLibraries","IIS-RequestMonitor","IIS-Security","IIS-RequestFiltering","IIS-WindowsAuthentication","IIS-ManagementTools","IIS-ManagementConsole","IIS-ManagementService" -All -NoRestart
 
 # tools we expect devs across many scenarios will want
 choco install -y git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal'"
