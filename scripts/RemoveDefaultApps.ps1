@@ -16,7 +16,6 @@ function removeApp {
 }
 
 $applicationList = @(
-    "Clipchamp.Clipchamp"
     "Microsoft.3DBuilder"
     "Microsoft.549981C3F5F10" # Cortana
     "Microsoft.BingFinance"
