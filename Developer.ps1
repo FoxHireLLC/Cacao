@@ -24,13 +24,13 @@ function executeScript {
 #--- Setting up Windows ---
 executeScript "DirectorySetup.ps1";
 executeScript "FileExplorerSettingsAdvanced.ps1";
-executeScript "RemoveDefaultApps.ps1";
 executeScript "Browsers.ps1";
 executeScript "WindowsTools.ps1";
 executeScript "Foxhire.ps1";
 executeScript "CommonDevTools.ps1";
 executeScript "AwsDevops.ps1";
 executeScript "Docker.ps1";
+executeScript "RemoveDefaultApps.ps1";
 
 #--- Visual Studio ---
 choco install visualstudio2022community -y
