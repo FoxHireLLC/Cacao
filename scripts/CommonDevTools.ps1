@@ -22,6 +22,7 @@ choco install -y sql-server-management-studio
 choco install -y linqpad
 choco install -y postman
 choco install -y sql-server-2022
+choco install -y sql-server-express
 choco install -y rabbitmq
 choco install -y sublimetext4
 
