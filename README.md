@@ -26,6 +26,9 @@ Before you begin, ensure the following:
 
 Choose one or more of the following preconfigured toolsets to install:  
 
+- [**Install Minimum Tools**](http://boxstarter.org/package/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Minimum.ps1)  
+  *Sets directory settings, removes garbage apps, and installs Chrome, Slack, and OpenVPN.*  
+
 - [**Install Normal Tools**](http://boxstarter.org/package/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Normal.ps1)  
   *Standard tools for general productivity and daily use.*  
 
