@@ -8,6 +8,8 @@ Some script part were taken from [Microsoft/windows-dev-box-setup-scripts](https
 
 <a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Developer.ps1'>Install Developer tools!</a>
 
+<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Ryan.ps1'>Install Ryan's tools!</a>
+
 
 
 STILL TO INSTALL
