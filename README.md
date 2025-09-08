@@ -1,10 +1,12 @@
+# Boxstarter Instructions #
+
 Leveraging [Boxstarter](http://boxstarter.org) and [Chocolatey](http://chocolatey.org) to quickly install most of the developers tools I use for my daily job!
 
 You can read more about it on my blog post "[Automating my development machine installation ](https://laurentkempe.com/2018/06/01/Automating-development-machine-installation/)"
 
 Some script part were taken from [Microsoft/windows-dev-box-setup-scripts](https://github.com/Microsoft/windows-dev-box-setup-scripts)
 
-=== Pick One or More of the Following ===
+## Pick One or More of the Following ##
 
 <a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Normal.ps1'>Install Normal tools!</a>
 
@@ -12,7 +14,7 @@ Some script part were taken from [Microsoft/windows-dev-box-setup-scripts](https
 
 <a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/FoxHireLLC/Cacao/refs/heads/master/Ryan.ps1'>Install Ryan's tools!</a>
 
-=== Then Install Ninja Agent === 
+## Then Install Ninja Agent ## 
 
 <a href='https://app.ninjarmm.com/agent/installer/b77fc1d6-e9bb-49bb-9407-46f5b0eeae02/9.0.4639/NinjaOne-Agent-Foxhire-MainOffice-WINDOWSLAPTOP.msi'>Install Ninja</a>
 
