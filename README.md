@@ -14,4 +14,3 @@ Some script part were taken from [Microsoft/windows-dev-box-setup-scripts](https
 
 STILL TO INSTALL
 Ninja
-Nextiva
