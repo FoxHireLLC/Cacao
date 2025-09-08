@@ -52,7 +52,7 @@ Choose one or more of the following preconfigured toolsets to install:
    Ensure `CurrentUser` is set to `RemoteSigned`.  
 
 3. **Choose a Toolset.**  
-   Click one of the links above (*Normal, Developer, or Ryan’s Tools*) to trigger Boxstarter.  
+   Click one of the links above (*Minimum, Normal, Developer, or Ryan’s Tools*) to trigger Boxstarter.  
 
 4. **Boxstarter Runs Automated Setup.**  
    - Installs Chocolatey (if not already installed).  
@@ -63,28 +63,18 @@ Choose one or more of the following preconfigured toolsets to install:
    Boxstarter automatically resumes installation after reboots.  
 
 6. **Post-Setup – Install Ninja Agent.**  
-   ⚠️⚠️⚠️ Finalize the setup with the NinjaOne monitoring agent:  
-   [**Install Ninja Agent**](https://app.ninjarmm.com/agent/installer/b77fc1d6-e9bb-49bb-9407-46f5b0eeae02/9.0.4639/NinjaOne-Agent-Foxhire-MainOffice-WINDOWSLAPTOP.msi)  
+   ⚠️⚠️⚠️ Finalize the setup with the NinjaOne monitoring agent:  [**Install Ninja Agent**](https://app.ninjarmm.com/agent/installer/b77fc1d6-e9bb-49bb-9407-46f5b0eeae02/9.0.4639/NinjaOne-Agent-Foxhire-MainOffice-WINDOWSLAPTOP.msi)  
 
 ---
 
 ## ⏱️ Expected Duration
 
+- **Minimum Tools**: ~5–15 minutes  
 - **Normal Tools**: ~10–15 minutes  
 - **Developer Tools**: ~20–30 minutes  
 - **Ryan’s Tools**: ~15–25 minutes  
 *(Varies based on internet speed and system performance.)*  
 
----
-
-## ✅ Completion
-
-Once finished, you’ll have:  
-- A fully configured development environment.  
-- Essential tools installed and updated.  
-- System monitoring enabled via NinjaOne Agent.  
-
----
 
 
 
