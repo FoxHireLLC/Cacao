@@ -51,9 +51,9 @@ Choose one or more of the following preconfigured toolsets to install:
    ```  
    Ensure `CurrentUser` is set to `RemoteSigned`.
    
-  ```powershell
-  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-  ```  
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```  
 
 3. **Choose a Toolset.**  
    Click one of the links above (*Minimum, Normal, Developer, or Ryan’s Tools*) to trigger Boxstarter.  
